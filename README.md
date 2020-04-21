@@ -19,7 +19,6 @@
 
 
 	if(numero01 >= numero02)
-	if(numero03 >= numero04)
 	{
         //imprime numero mayor
 	document.write("El numero mayor es: " + numero01 + " ( Numero 1 )");
