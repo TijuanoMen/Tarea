@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<tittle>Numero Mayor condicional</tittle>
+	<title>Numero Mayor condicional</title>
 </head>
 <body>
 <center>
@@ -18,7 +18,8 @@
 
 
 
-	if(numero01 >= numero02>=numero03>=numero04)
+	if(numero01 >= numero02)
+	if(numero03 >= numero04)
 	{
         //imprime numero mayor
 	document.write("El numero mayor es: " + numero01 + " ( Numero 1 )");
