@@ -27,12 +27,13 @@
 	{
        //imprime numero mayor
 	document.write("El Numero mayor es : " + numero02 + " ( Numero 2 )");
-	}else
+	}
+	
 	{
        //imprime numero mayor
 	document.write("El Numero mayor es : " + numero03 + " ( Numero 3 )");
 	}
-	else
+	
 	{
        //imprime numero mayor
 	document.write("El Numero mayor es : " + numero04 + " ( Numero 4 )");
