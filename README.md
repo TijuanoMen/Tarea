@@ -14,8 +14,6 @@
 <body>
 
 <h2>Ordenar elementos de un arreglo de mayor a menor</h2>
-<p style="font-family: Verdana ;color:Green">En este ejercicio se utiliza el algoritmo de ordenamiento denominado <b>Ordenación de burbuja o Método de intercambio directo.</b><br> Por medio de ciclos, se comparan todos los elementos entre ellos. Cuando los 2 elementos se comparan y el primer elemento es mayor que el segundo elemento entonces cambian de posición entre ellos, de lo contrario quedan en el orden en el que están. Dando como resultado el orden del arreglo de los elementos de mayor a menor.</p>
-
 
 <?php
 
@@ -45,10 +43,10 @@ echo "<p style='font-family: Verdana ;color:Orange'>Paso ". $contLoops."</p>";
        		echo " = ".$numeros[$j] . " es menor que ". $numeros[$j+1];
        }
 
-       if ($numeros[$j+1] > $numeros[$j]) {//Se comparan 2 elementos recorriendo el arreglo de izquierda a derecha. Si el elemento ubicado a la derecha del arreglo es mayor que el de la izquierda entonces:
-           $temp = $numeros[$j];//Primero, se asigna el valor del elemento con menor valor a la variable $temp
-           $numeros[$j] = $numeros[$j+1];//Segundo, se asigna el valor del elemento con mayor valor al campo donde se encuentra ubicado el de menor valor
-           $numeros[$j+1] = $temp;//Tercero, se asigna el valor de la variable $temp al campo donde se encuentra ubicado el de mayor valor
+       if ($numeros[$j+1] > $numeros[$j]) {
+           $temp = $numeros[$j]; $temp
+           $numeros[$j] = $numeros[$j+1];
+           $numeros[$j+1] = $temp;
        }//Al terminar con el If el resultado es el intercambio de los elementos
 
  	echo "<br>";
@@ -67,8 +65,6 @@ echo "<br><br>";
 echo "<h3>Arreglo ordenado de mayor a menor: ";
 print_r($numeros) ;//Imprime en pantalla el arreglo
 echo "</h3><br><br><br>";
-
-?>
 
  
 </body>
